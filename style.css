@@ -6,14 +6,15 @@
     box-sizing: border-box;
 }
 
-body {
+body{
+    width: 100%;
     max-width: 1536px;
     margin: 0 auto;
 }
 
 .conteiner-menu{
     width: 100%;
-    height: 90px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,10 +55,45 @@ body {
     transform: scale(1.1);
 }
 
+.conteiner-blue{
+    position: relative;
+    background-image: url(/Images/Blue\ Orange.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 646px;
+}
+
+.conteiner-blue h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 8%;
+    font-size: 3.7rem;
+}
+
+.conteiner-blue h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    top: 390px;
+    left: 8%;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 807px){
+    .conteiner-blue{
+        
+    }
+}
+
 @media (max-width: 819px){
     .conteiner-menu{
         justify-content: flex-start;
-        height: 50px;
+        height: 40px;
     }
 
     .conteiner-menu figure{
@@ -69,11 +105,27 @@ body {
     }
 
     .conteiner-menu img{
-        height: 50px;
+        height: 40px;
     }
 
     .conteiner-menu nav{
         display: none;
     }
+}
+
+@media (max-width: 1050px){
+    .conteiner-blue h1{
+        font-size: 3.2rem;
+        width: 100px;
+        top: 350px;
+        left: 8%;
+    }
+
+    .conteiner-blue h3{
+        font-size: 1.4rem;
+        top: 580px;
+        left: 8%;
+    }
+        
 }
 
