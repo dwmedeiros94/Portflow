@@ -110,6 +110,61 @@ body{
 
 /* FOOTER */
 
+footer{
+    background-color: rgb(241, 241, 241);
+}
+
+.conteiner-footer{
+    display: flex;
+    margin-left: 8%;
+    width: 84%;  
+}
+
+.social-media{
+    width: 350px;
+}
+
+.img-social{
+    width: 50px;
+    height: 40px;
+    object-fit: contain;
+    padding: 8px;
+    transition: 0.1s all;
+}
+
+.img-social:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+button{
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    color: gray;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
 
 
 /* RESPONSIVO @media*/
