@@ -84,11 +84,16 @@ body{
     font-size: 1.8rem;
 }
 
+.conteiner-pack-1{
+    margin-top: 50px;
+}
+
 .conteiner-pack-1,
 .conteiner-pack-2,
 .conteiner-pack-3{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .image1e2, .image3e4,
@@ -97,18 +102,7 @@ body{
     display: flex;
 }
 
-.image1, .image2, .image3, .image4{
-    display: flex;
-    justify-content: center;
-    width: 320px;
-    height: 320px;
-    object-fit: cover;
-    padding: 10px;
-    margin-top: 50px;
-    cursor: pointer;
-    transition: 0.1s all;
-} 
-
+.image1, .image2, .image3, .image4,
 .image5, .image6, .image7, .image8,
 .image9, .image10, .image11, .image12{
     display: flex;
@@ -128,27 +122,14 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 657px){
+    .image1e2, .image3e4,
+    .image5e6, .image7e8,
+    .image9e10, .image11e12{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 
 @media (max-width: 807px){
     .conteiner-blue{
