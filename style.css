@@ -12,8 +12,9 @@ body{
     margin: 0 auto;
 }
 
+/* HEADER */
+
 .conteiner-menu{
-    width: 100%;
     height: 75px;
     display: flex;
     align-items: center;
@@ -55,6 +56,8 @@ body{
     transform: scale(1.1);
 }
 
+/* MAIN */
+
 .conteiner-blue{
     position: relative;
     background-image: url(/Images/Blue\ Orange.png);
@@ -84,50 +87,80 @@ body{
     font-size: 1.8rem;
 }
 
-.conteiner-pack-1{
-    margin-top: 50px;
-}
-
-.conteiner-pack-1,
-.conteiner-pack-2,
-.conteiner-pack-3{
+.gallery figure{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.image1e2, .image3e4,
-.image5e6, .image7e8,
-.image9e10, .image11e12{
-    display: flex;
-}
-
-.image1, .image2, .image3, .image4,
-.image5, .image6, .image7, .image8,
-.image9, .image10, .image11, .image12{
-    display: flex;
-    justify-content: center;
+.img-galery{
     width: 320px;
     height: 320px;
-    object-fit: cover;
+    margin: 0px;
     padding: 10px;
     cursor: pointer;
-    transition: 0.1s all;
+    transition: 0.5s all;
 }
 
-.image1:hover, .image2:hover, .image3:hover, .image4:hover,
-.image5:hover, .image6:hover, .image7:hover, .image8:hover,
-.image9:hover, .image10:hover, .image11:hover, .image12:hover{
+.img-galery:hover{
     transform: scale(1.1);
 }
 
+/* FOOTER */
 
-@media (max-width: 657px){
-    .image1e2, .image3e4,
-    .image5e6, .image7e8,
-    .image9e10, .image11e12{
-        flex-wrap: wrap;
-        justify-content: center;
+
+
+/* RESPONSIVO @media*/
+
+@media (max-width: 643px){
+    .img-brand{
+        order: -12;
+    }
+
+    .img-media{
+        order: -11;
+    }
+
+    .img-past{
+        order: -10;
+    }
+
+    .img-site{
+        order: -9;
+    }
+
+    .img-polaroid{
+        order: -8;
+    }
+
+    .img-design{
+        order: -7;
+    }
+
+    .img-mug{
+        order: -6;
+    }
+
+    .img-bread{
+        order: -5;
+    }
+
+    .img-mobile{
+        order: -4;
+    }
+
+    .img-herb{
+        order: -3;
+    }
+
+    .img-natfit{
+        order: -2;
+    }
+
+    .img-coffee{
+        order: -1;
     }
 }
 
