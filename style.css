@@ -48,12 +48,8 @@ body{
     margin-right: 60px;
 }
 
-.conteiner-menu li{
-    transition: 0.1s all;
-}
-
-.conteiner-menu li:hover{
-    transform: scale(1.1);
+.conteiner-menu a:hover{
+    font-weight: 500;
 }
 
 /* MAIN */
@@ -116,8 +112,14 @@ footer{
 
 .conteiner-footer{
     display: flex;
-    margin-left: 8%;
+    align-items: center;
+    margin-left: 42px;
+    padding: 8px;
     width: 84%;  
+}
+
+.social-media a{
+    text-decoration: none;
 }
 
 .social-media{
@@ -128,12 +130,27 @@ footer{
     width: 50px;
     height: 40px;
     object-fit: contain;
-    padding: 8px;
+    padding: 9px;
     transition: 0.1s all;
 }
 
 .img-social:hover{
     transform: scale(1.1);
+}
+
+.CopyRight{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 12px;
+    margin-left: 8%;
+}
+
+.CopyRight p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width: 300px;
+    margin-top: 2px;
+    margin-left: 8%;
 }
 
 
