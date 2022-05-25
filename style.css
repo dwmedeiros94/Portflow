@@ -123,7 +123,8 @@ footer{
 }
 
 .social-media{
-    width: 350px;
+    width: 325px;
+    margin-right: 1%;
 }
 
 .img-social{
@@ -140,6 +141,7 @@ footer{
 
 .CopyRight{
     font-family: 'Montserrat', sans-serif;
+    width: 325px;
     display: flex;
     font-size: 12px;
     margin-left: 8%;
@@ -153,19 +155,15 @@ footer{
     margin-left: 8%;
 }
 
+/* BUTTON SETTINGS */
 
-
-
-
-
-
-
-
-
-button{
+.CopyRight button{
     display: none;
+    justify-content: center;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     background-color: black;
+    color: gray;
     font-size: 1rem;
     font-weight: 700;
     border-radius: 3px;
@@ -177,14 +175,46 @@ button{
     transition: 0.1s all;
 }
 
-button:hover{
+.CopyRight button:hover{
     transform: scale(1.1);
 }
 
+.CopyRight a{
+    text-decoration: none;
+    color: gray
+}
 
+/* RESPONSIVE @media*/
 
+@media (max-width: 400px){
+    .conteiner-footer{
+        margin: 0 auto;
+    }
 
-/* RESPONSIVO @media*/
+    .social-media{
+        background-color: #7FDBD4;
+    }
+
+    .CopyRight{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .CopyRight p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        width: 150px;
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+    .CopyRight button{
+        display: flex;
+        position: relative;
+        left: 190px;
+        bottom: 35px;
+    }
+}
 
 @media (max-width: 643px){
     .img-brand{
@@ -239,7 +269,6 @@ button:hover{
 @media (max-width: 807px){
     .conteiner-blue{
         object-position: center;
-        
     }
 }
 
@@ -266,6 +295,17 @@ button:hover{
     }
 }
 
+@media (max-width: 1006px){
+    .conteiner-footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .CopyRight{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 1050px){
     .conteiner-blue h1{
         font-size: 3.2rem;
@@ -281,4 +321,3 @@ button:hover{
     }
         
 }
-
