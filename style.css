@@ -15,6 +15,10 @@ body{
 /* HEADER */
 
 .conteiner-menu{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
     height: 75px;
     display: flex;
     align-items: center;
@@ -49,7 +53,7 @@ body{
 }
 
 .conteiner-menu a:hover{
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* MAIN */
@@ -60,6 +64,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 85%;
+    background-position-y: 30px;
     height: 646px;
 }
 
@@ -97,10 +102,11 @@ body{
     margin: 0px;
     padding: 10px;
     cursor: pointer;
-    transition: 0.5s all;
+    transition: 0.6s all;
 }
 
 .img-galery:hover{
+    border-radius: 50px;
     transform: scale(1.1);
 }
 
@@ -165,8 +171,8 @@ footer{
     background-color: black;
     color: gray;
     font-size: 1rem;
-    font-weight: 700;
-    border-radius: 3px;
+    font-weight: 500;
+    border-radius: 2px;
     border: none;
     color: gray;
     width: 100px;
@@ -196,8 +202,10 @@ footer{
     }
 
     .CopyRight{
+        height: 70px;
         flex-direction: column;
-        margin-top: 10px;
+        padding-top: 10px;
+        padding-left: 12px;
     }
 
     .CopyRight p{
@@ -318,6 +326,5 @@ footer{
         font-size: 1.4rem;
         top: 580px;
         left: 8%;
-    }
-        
+    }    
 }
