@@ -12,13 +12,17 @@ body{
     margin: 0 auto;
 }
 
+header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    max-width: 1536px;
+}
+
 /* HEADER */
 
 .conteiner-menu{
     background-color: white;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
     height: 75px;
     display: flex;
     align-items: center;
