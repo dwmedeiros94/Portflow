@@ -64,7 +64,7 @@ header{
 
 .conteiner-blue{
     position: relative;
-    background-image: url(/Images/Blue\ Orange.png);
+    background-image: url(Images/Blue\ Orange.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 85%;
