@@ -2,6 +2,8 @@
 
 Este projeto consiste em um website. A interface é moderna e minimalista, com um foco visual em imagens de produtos e design.
 
+---
+
 ### Tecnologias utilizadas 💻
 
 **HTML5**: Estruturação do conteúdo da página.  
