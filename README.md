@@ -32,12 +32,12 @@ Para visualizar o projeto localmente, siga os seguintes passos:
 
 1. Faça o clone deste repositório em sua máquina:
     ```bash
-    git clone https://github.com/seu-usuario/portflow.git
+    git clone https://github.com/dwmedeirosDev/projeto-portflow.git
     ```
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd portflow
+    cd projeto-portflow
     ```
 
 3. Abra o arquivo `index.html` em seu navegador de preferência.
